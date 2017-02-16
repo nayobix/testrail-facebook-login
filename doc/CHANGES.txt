@@ -1,0 +1,17 @@
+Changed file:
+testrail/app/i18n/translations/en/all.php
+
+What:
+$lang['auth_login_login'] = 'Facebook Login </label> <script>document.getElementById("name").value="user@facebook.com";document.getElementById("password").value="password";</script><label>';
+
+Why:
+Testrail forms should be populated in order to pass to auth process
+
+Another option:
+Hide input form with prepolutaed fields 
+
+
+Added files:
+fbconfig.php
+fblogin.php
+auth.php

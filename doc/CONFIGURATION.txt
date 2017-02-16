@@ -1,0 +1,21 @@
+Redirect URI in Facebook app should be:
+    https://your-testrail-address.com/custom/auth/fblogin.php
+
+In fbconfig.php populate:
+    $GLOBALS['fb_app_id']           = "***";
+    $GLOBALS['fb_app_secret']       = "***";
+
+Put files:
+fbconfig.php
+fblogin.php
+auth.php
+
+in testrail/custom/auth/ path (user/group www-data) 
+
+Download Facebook SDK and put in /var/www/html
+Preserve Facebook SDk path, because it is used in the files
+
+fblogin.php:
+...
+require_once '/var/www/html/php-graph-sdk-5.0.0/src/Facebook/autoload.php';
+...

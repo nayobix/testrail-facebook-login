@@ -1,0 +1,16 @@
+---
+Trace:
+at errors::show (errors.php:62)
+at ErrorHandler::error (auth.php:119)
+at authenticate_user (custom.php:261)
+at Auth_custom_driver->_login (custom.php:305)
+at Auth_custom_driver->login (auth.php:501)
+at Auth_library->_login_custom (auth.php:488)
+at Auth_library->_login (auth.php:418)
+at Auth_library->login (auth.php:57)
+at Auth_controller->login (controller.php:257)
+at Controller->_invoke_web_call (controller.php:168)
+at Controller->_invoke_web (controller.php:120)
+at Controller->_invoke (gizmo.php:107)
+at require_once (index.php:106)
+---

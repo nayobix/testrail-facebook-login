@@ -1,0 +1,4 @@
+Opening http[s]://your-testrail-address.com redirects you immediately to
+Facebook OAuth dialog to accept permissions.
+If permissions is given, then it redirects you back on Testrail address
+and user clicks `Facebook Login` button.
